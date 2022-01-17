@@ -1,28 +1,22 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="container mx-auto p-6"> 
+      <div class="relative">
+          <a href="" class="text-sm inline-flex bg-gray-300 h-10 px-4 rounded text-center flex items-center justify-center leading-none text-gray-600">Button</a>
+          <ul class="bg-white shadow-xl absolute rounded overflow-hidden z-50 w-40 mt-2">
+            <li><a href="" class="block p-2 text-sm text-gray-800 hover:bg-gray-100">Item one</a></li>
+             <li><a href="" class="block p-2 text-sm text-gray-800 hover:bg-gray-100">Item two</a></li>
+          </ul>
+      </div>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style src="@/assets/app.css">
+
 </style>
